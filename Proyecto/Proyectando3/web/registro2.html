@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="funciones.js"></script>
+    </head>
+    <body>
+        <form method="POST" action="Registro" name="Registro">
+            
+            <h1>Laboratorio 3 <br/><br/>Registro</h1>
+            
+            <p>
+                <label>Nombre Completo:</label>
+                <input type="text" name="nombreCompleto"/>
+            </p>
+            
+            <p>
+               <label>E-mail:</label>
+               <input type="text" name="correo"/>
+            </p>
+            
+            <p>
+                <label>Usuario:</label>
+                <input type="text" name="nombreUsuario"/>
+            </p>
+            
+            <p>
+                <label>Contraseña:</label>
+                <input type="password" name="contra"/>
+            </p>
+            
+            <p>
+                <label>Femenino</label>
+                <input type="radio" name="genero" value="Femenino"/>
+           </p>
+           
+           <p>
+                <label>Masculino</label>
+                <input type="radio" name="genero" value="Masculino"/>
+           </p>
+           
+           <p>
+                <label>Soy Mayor de Edad</label>
+                <input type="checkbox" name="edad"/>
+           </p>
+            
+            <p>
+            <!-- Campo para seleccionar mes de nacimiento -->
+                <label>Mes de Nacimiento</label>
+                <select name="mes" id="selectMes">
+                    <option value="Enero">Enero</option>
+                    <option value="Febrero">Febrero</option>
+                    <option value="Marzo" selected="selected">Marzo</option>
+                    <option value="Abril">Abril</option>
+                    <option value="Mayo">Mayo</option>
+                    <option value="Junio">Junio</option>
+                    <option value="Julio">Julio</option>
+                    <option value="Agosto">Agosto</option>
+                    <option value="Septiembre">Septiembre</option>
+                    <option value="Octubre">Octubre</option>
+                    <option value="Noviembre">Noviembre</option>
+                    <option value="Diciembre">Diciembre</option>
+                </select>
+            </p>
+           
+           <p>
+                <label>Acerca de mi</label>
+                <textarea name="acerca" rows="5"></textarea>
+           </p>
+           
+           <p>
+               <input type="button" value="Borrar" onclick="limpiar()"/>
+                <input type="submit" value="Enviar"/>
+           </p>
+        </form>
+        
+        <div>TODO Tiene Un Por Qué</div>
+    </body>
+</html>
