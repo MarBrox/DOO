@@ -1,8 +1,4 @@
-<%-- 
-    Document   : index
-    Created on : 23/11/2017, 04:41:02 PM
-    Author     : mario
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -33,49 +29,52 @@
       <div class="contenedor">
         <section class="info">
           <article class="info__columna">
-            <img src="img1.jpg" alt="" class="info__img">
-            <h2 class="info__titulo">Título 1</h2>
-            <p class="info__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum aut, incidunt aperiam dicta totam cumque.</p>
+            <img src="nota1.jpg" alt="" class="info__img">
+            <h2 class="info__titulo">QUE ES EL P&L EN FINANZAS Y EMPRESAS</h2>
+            <p class="info__txt">Si has estado en el área de finanzas o administración, seguro has escuchado el término P&L (Profit and Loss, por sus siglas en inglés), y que no es otra cosa que un estado de utilidades y pérdidas.</p>
+          <a href="NOTICIA1.jsp">VER MAS</a>
           </article>
           <article class="info__columna">
-            <img src="img1.jpg" alt="" class="info__img">
-            <h2 class="info__titulo">Título 2</h2>
-            <p class="info__txt">Expedita totam, minima praesentium suscipit excepturi ducimus repellat harum ab, inventore neque cum! Nostrum, dicta!</p>
+            <img src="nota2.jpg" alt="" class="info__img">
+            <h2 class="info__titulo">¿CÓMO NO TOMAR DECISIONES DE DINERO?</h2>
+            <p class="info__txt">Muchas veces me he sentido aterrorizado de personas que toman decisiones de dinero sin saber lo que están haciendo. O que hablan sin saber lo que dicen.</p>
+           <a href="NOTICIA 2.jsp">VER MAS</a>
           </article>
           <article class="info__columna">
-            <img src="img1.jpg" alt="" class="info__img">
-            <h2 class="info__titulo">Título 3</h2>
-            <p class="info__txt">Molestiae odit quas officia, dicta, nobis dolorem, quaerat eveniet accusantium excepturi est quidem, ducimus doloremque?</p>
+            <img src="img3.jpg" alt="" class="info__img">
+            <h2 class="info__titulo">¿SOMOS TAN POBRES COMO CREEMOS? </h2>
+            <p class="info__txt">¿Cuántas veces hemos escuchado a las personas decir que no les alcanza el dinero? ¿Cuántas veces lo hemos dicho nosotros mismos? “Si tuviera más dinero”, “si no tuviera tantos gastos”</p>
+            <a href="NOTICIA 3.jsp">VER MAS</a>
           </article>
         </section>
         <section class="cursos">
           <h2 class="section__titulo">Nuestros cursos</h2>
           <div class="cursos__columna">
-            <img src="img2.jpg" alt="" class="cursos__img">
+            <img src="img2.2.jpg" alt="" class="cursos__img">
             <div class="cursos__descripcion">
-              <h2 class="cursos__titulo">Programación</h2>
-              <div class="cursos__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, dignissimos.</div>
+              <h2 class="cursos__titulo">NEGOCIA</h2>
+              <div class="cursos__txt">COMUNICATE</div>
             </div>
           </div>
           <div class="cursos__columna">
-            <img src="img2.jpg" alt="" class="cursos__img">
+            <img src="img2.2.jpg" alt="" class="cursos__img">
             <div class="cursos__descripcion">
-              <h2 class="cursos__titulo">Diseño Web</h2>
-              <div class="cursos__txt">Accusantium rem quia doloribus soluta ullam pariatur alias, quas dolorum.</div>
+              <h2 class="cursos__titulo">ADMINISTRATE</h2>
+              <div class="cursos__txt">APRENDE</div>
             </div>
           </div>
           <div class="cursos__columna">
-            <img src="img2.jpg" alt="" class="cursos__img">
+            <img src="img2.2.jpg" alt="" class="cursos__img">
             <div class="cursos__descripcion">
-              <h2 class="cursos__titulo">Diseño grafico</h2>
-              <div class="cursos__txt">Voluptates aspernatur magnam possimus natus, et nemo maxime sed vitae!</div>
+              <h2 class="cursos__titulo">CALCULA</h2>
+              <div class="cursos__txt">INVENTARIO</div>
             </div>
           </div>
           <div class="cursos__columna">
-            <img src="img2.jpg" alt="" class="cursos__img">
+            <img src="img2.2.jpg" alt="" class="cursos__img">
             <div class="cursos__descripcion">
-              <h2 class="cursos__titulo">Rhinoceros</h2>
-              <div class="cursos__txt">Nulla, cumque sunt laudantium blanditiis deserunt, error dolores vero iure.</div>
+              <h2 class="cursos__titulo">GANANCIAS</h2>
+              <div class="cursos__txt">IMPLEMENTA</div>
             </div>
           </div>
         </section>
